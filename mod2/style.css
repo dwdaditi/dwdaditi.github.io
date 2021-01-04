@@ -5,7 +5,7 @@
 h1{
   text-align:center;
 }
-section{
+section section>p{
 width:33%;
 background-color:#99ffff;
 float:left;
