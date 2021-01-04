@@ -1,8 +1,6 @@
-html{
-background-color: #ff9966;
-}
 *{
   box-sizing:border-box;
+  background-color: #ff9966;
 }
 h1{
   text-align:center;
