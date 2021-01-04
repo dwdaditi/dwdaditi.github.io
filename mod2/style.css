@@ -4,6 +4,9 @@ background-color: #ff9966;
 *{
   box-sizing:border-box;
 }
+h1{
+  text-align:center;
+}
 section{
 width:33%;
 background-color:#99ffff;
