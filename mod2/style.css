@@ -1,3 +1,16 @@
-body{
-background-color: yellow;
+html{
+background-color: #ff9966;
+}
+*{
+  box-sizing:border-box;
+}
+section{
+width:33%;
+background-color:#99ffff;
+float:left;
+}
+section>h2{
+  float:right;
+  background-color: #ffff00;
+  wdith:25em;
 }
