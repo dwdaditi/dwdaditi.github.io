@@ -1,11 +1,14 @@
 *{
   box-sizing:border-box;
+  
+}
+div{
   background-color: #ffccb3;
 }
 h1{
   text-align:center;
 }
-section section>p{
+section {
 width:33%;
 background-color:#99ffff;
 float:left;
