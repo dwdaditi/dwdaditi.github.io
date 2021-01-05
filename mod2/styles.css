@@ -9,9 +9,7 @@ body{
 h1{
   text-align:center;
 }
-section{
-  background-color:#99ffff;
-}
+
 @media(min-width:992px){
 
 section {
@@ -26,7 +24,7 @@ float:left;
     .half{
       width:50%;
       float:left;
-      margin:15px;
+      margin:10px;
     }
     .full{
       width:100%;
@@ -40,6 +38,10 @@ float:left;
       float:left;
       margin:15px;
     }}
+section{
+  background-color:#99ffff;
+  height:40%;
+}
 section>h2{
   float:right;
   background-color: #ffff00;
