@@ -2,20 +2,44 @@
   box-sizing:border-box;
   
 }
-div{
+body{
   background-color: #ffccb3;
 }
+  
 h1{
   text-align:center;
 }
+section{
+  background-color:#99ffff;
+}
+@media(min-width:992px){
+
 section {
 width:33%;
-background-color:#99ffff;
 float:left;
-  margin:15px;
-  border:10px;
-  padding:10px;
-}
+ position:relative;
+ margin:10px;
+  
+  }}
+@media(min-width:768px) and (max-width:991px)
+  {
+    .half{
+      width:50%;
+      float:left;
+      margin:15px;
+    }
+    .full{
+      width:100%;
+      float:left;
+      position:relative;
+    }}
+@media(max-width:767px)
+  {
+    section{
+      width:100%;
+      float:left;
+      margin:15px;
+    }}
 section>h2{
   float:right;
   background-color: #ffff00;
