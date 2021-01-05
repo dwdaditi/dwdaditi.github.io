@@ -12,6 +12,9 @@ section {
 width:33%;
 background-color:#99ffff;
 float:left;
+  margin:15px;
+  border:10px;
+  padding:10px;
 }
 section>h2{
   float:right;
